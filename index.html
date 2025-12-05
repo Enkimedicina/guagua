@@ -28,21 +28,23 @@
         }
       }
     </script>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.1/",
-    "react": "https://aistudiocdn.com/react@^19.2.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
-    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
-    "uuid": "https://aistudiocdn.com/uuid@^13.0.0",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
-  }
-}
-</script>
-</head>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.2.1/",
+        "react": "https://aistudiocdn.com/react@^19.2.1",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+        "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+        "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+        "uuid": "https://aistudiocdn.com/uuid@^13.0.0",
+        "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+      }
+    }
+    </script>
+  </head>
   <body class="bg-gray-950 text-gray-100 antialiased selection:bg-blue-500 selection:text-white">
     <div id="root"></div>
+    <!-- Corrección crítica: Usar ./ para asegurar que Vite encuentre el archivo -->
+    <script type="module" src="./index.tsx"></script>
   </body>
 </html>
